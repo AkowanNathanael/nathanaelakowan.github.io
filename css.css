@@ -1,0 +1,282 @@
+/* My colors 
+---------------------------------------------------
+
+
+*/
+
+
+/*General
+-----------------------------------------------------
+*/
+*{
+  margin: 0;
+  padding: 0px;
+}
+
+
+
+/*Navigation pane that is the class nav
+----------------------------------------------------
+*/
+.nav{
+  height: 20vh;
+  width: 100%;
+  /* height: auto; */
+  display: block;
+  background-color: rgb(27, 27, 27);color: bisque;
+}
+
+.nav ul{
+  list-style-type: none;
+}
+
+.nav ul li{
+  list-style-type: none;
+  display: inline;
+  margin-left: 10px;
+  width: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 5vh;
+  background-color: rgb(190, 202, 22);
+  padding: 10px;
+  border-radius: 5px;
+  top: 0px;
+  height: 0px;
+  position: sticky;
+  transition:all 3s linear;
+  transform: scale(4);
+}
+
+
+.nav ul li:hover{
+  background-color: white;
+  color:rgb(53, 56, 3) ;
+
+}
+
+
+
+
+
+
+/*Details , this tells all about myself as in Resume
+----------------------------------------------------
+*/
+.detail-n{
+color: crimson;
+}
+
+.details h1 {
+  font-size: 70px;
+  margin-top: 50px;
+}
+
+.details h2{
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.icons{
+  margin-top: 40px;
+}
+
+i{
+
+  width: 200px;
+  height: 40px;
+  font-size: 50px;
+}
+.kim{
+  margin-top: 30px;
+  width: 80%;
+  height: 90vh;
+  border-radius: 10px;
+  border: 3px solid red;
+}
+
+
+
+
+/*Knowledge Level
+----------------------------------------------------
+*/
+.knowledge-level{
+  display: grid;
+  margin: 5px;
+  grid-template-columns: auto auto auto;
+  font-size: 20px;
+
+}
+
+.knowledge-level-items{
+  background-color: rgb(187, 178, 130);
+  margin: 10px;
+  border: 3px groove rgb(14, 3, 3);
+  box-shadow: 3px 3px 5px  rgb(22, 22, 22);
+  border-radius: 5px;
+  padding: 18px;
+}
+
+
+
+/*Try Projects
+----------------------------------------------------
+*/
+
+.projects{
+  margin-top: 30px;
+display: grid;
+grid-template-columns: auto auto auto;
+/* grid-template-rows: auto auto; */
+
+}
+
+.projects-items{
+background-color:yellow ;
+margin: 5px;
+padding: 5px;
+font-size: 20px;
+border-radius: 5px;
+border: 2px dotted black;
+box-shadow:3px 3px 5px  rgb(22, 22, 22) ;
+}
+
+.project-title{
+margin-bottom: 20px;
+color: black;
+color: red;
+font-size: 20px;
+padding: 3px;
+}
+
+
+
+/*Footer 
+---------------------------------------------------
+/
+
+
+
+
+
+
+
+/* media query for smaller screens
+-------------------------------------------------------
+#######################################################
+*/
+
+@media screen and (max-width:600px){
+
+  
+/*Navigation pane that is the class nav
+----------------------------------------------------
+*/
+.nav{
+  /* margin-top: 2px; */
+  text-align: center;
+  height: 15vh;
+  width: 100%;
+  /* height: auto; */
+  display: block;
+  background-color: rgb(27, 27, 27);color: bisque;
+}
+
+.nav ul{
+  margin-left: 90px;
+  list-style-type: none;
+}
+
+.nav ul li{
+  margin-bottom: 3px;
+  text-align: center;
+  list-style-type: none;
+  display: block;
+  margin-left: 5px;
+  width: 130px;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-size: 1vh;
+  background-color: rgb(190, 202, 22);
+  padding: 7px;
+  border-radius: 5px;
+  top: 0px;
+  height: 0px;
+  position: sticky;
+  transition:all 2s linear;
+  
+}
+
+
+.nav ul li:hover{
+  background-color: white;
+  color:rgb(53, 56, 3) ;
+
+}
+
+
+  
+/*Knowledge Level
+----------------------------------------------------
+*/
+.knowledge-level{
+  display: grid;
+  margin: 5px;
+  grid-template-columns: auto ;
+  font-size: 20px;
+
+}
+
+.knowledge-level-items{
+  background-color:  rgb(187, 178, 130;
+  margin: 10px;
+  border: 3px groove rgb(14, 3, 3);
+  box-shadow: 3px 3px 5px  rgb(22, 22, 22);
+  border-radius: 5px;
+  padding: 18px;
+}
+
+
+
+
+/*Try Projects
+----------------------------------------------------
+*/
+
+.projects{
+  display: grid;
+  grid-template-columns: auto;
+  
+  }
+  
+  .projects-items{
+  background-color: rgb(187, 178, 130 ;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px dotted black;
+  box-shadow:3px 3px 5px  rgb(22, 22, 22) ;
+  }
+  
+  .project-title{
+  color: black;
+  background-color: red;
+  font-size: 20px;
+  padding: 3px;
+  }
+  
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

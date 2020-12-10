@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    /*body
+    -----------------------------*/
+    body{
+      font-size: 20px;
+      background-color:aquamarine ;
+    }
+
+/* css for all buttons, p and header
+---------------------------------*/
+    button{
+      padding: 5px;
+      background-color: steelblue;
+      border-radius: 5px;
+      border: 2px solid red;
+    }
+
+    p{
+      background-color: aliceblue;
+    }
+    header{
+      font-size: 30px;
+      background-color: black;
+      color: white;
+      border: 3px solid white;
+      border-radius: 20px;
+      width: 100%;
+      height: 20vh;
+      padding: 20px;
+    }
+
+   
+
+  </style>
+</head>
+<body>
+<header>
+  Checkout my html and css question samples
+</header>
+
+
+ <pre>
+  1.which of the following best describe HTML? <br>
+  a)A a programming alnguage  b) a  library   c) a styling sheet d) a markup language
+  
+  <p id="que1" > Black click answer to get answer </p>  
+
+   <button onclick="changeContent();" >  Answer </button>
+    
+<br>
+  2. What is the meaning of HTML?  
+  a) hyper tax make up Language   b)hyp text marquee length  c) Hyper text markup Language
+  
+  <p id="que2" > Black click answer to get answer </p>  
+
+   <button onclick="changeContent2();" >  Answer </button>
+  
+  <br>
+  3. Which of the following is a common attribute of a html element?
+  a) marquee  b)tax  c)id
+
+  <p id="que3" > Black click answer to get answer </p>  
+
+   <button onclick="changeContent3();" >  Answer </button>
+
+<br>
+  4. All the following are block elements except....
+  a) h1   b) div    c) span
+
+  <p id="que4" > Black click answer to get answer </p>  
+
+   <button onclick="changeContent4();" >  Answer </button>
+
+
+  <br>
+  5. All the following are inline elements except.......
+  a) span  b)div     c) input
+
+  <p id="que5" > Black click answer to get answer </p>  
+
+   <button onclick="changeContent5();" >  Answer </button>
+
+
+<br>
+  6) Which of the following is a common attribute of a form tag?
+  a) input   b) action   c) -moz-
+
+  <p id="que6" > Black click answer to get answer </p>  
+
+   <button onclick="changeContent6();" >  Answer </button>
+
+  7) The extension of a css file is .csss
+  a) True      b) False
+
+  <p id="que7" > Black click answer to get answer </p>  
+
+   <button onclick="changeContent7();" >  Answer </button>
+   <br>
+
+   8) CSS stands for ........
+   a) Cascade de la pays b)Casstadind style sheet  c) Cascading Style Sheet
+
+   <p id="que8" > Black click answer to get answer </p>  
+
+   <button onclick="changeContent8();" >  Answer </button>  <br>
+
+   9) CSS syntax is composed of ..............
+   a) a rule set  b) attribue   c)a selector and a declaration block
+   <p id="que9" > Black click answer to get answer </p>  
+
+   <button onclick="changeContent9();" >  Answer </button>
+   <br>
+   10) All the following are types of selectors except ?
+   a) Element selector  b) css selector   c) id selector
+
+   <p id="que10" > Black click answer to get answer </p>  
+
+   <button onclick="changeContent10();" >  Answer </button>  <br>
+
+
+
+ </pre>
+
+
+
+ <script type="text/javascript"  >
+
+ /*    Answer display using js , that is each function for a question 
+ ---------------=--------------------------------------------------------------------
+ */
+ 
+  function changeContent() {
+     document.getElementById("que1").innerHTML=" d) a markup language ";
+      
+  }
+
+  function changeContent2() {
+     document.getElementById("que2").innerHTML=" c) Hyper text markup Language";
+      
+  }
+
+  function changeContent3() {
+     document.getElementById("que3").innerHTML=" c)id";
+      
+  }
+
+  function changeContent4() {
+     document.getElementById("que4").innerHTML="  c) span";
+      
+  }
+
+  function changeContent5() {
+     document.getElementById("que5").innerHTML=" b)div ";
+      
+  }
+
+  function changeContent6() {
+     document.getElementById("que6").innerHTML=" b) action";
+      
+  }
+
+  function changeContent7() {
+     document.getElementById("que7").innerHTML="b) False";
+      
+  }
+
+  function changeContent8() {
+     document.getElementById("que8").innerHTML=" c) Cascading Style Sheet";
+      
+  }
+
+  function changeContent9() {
+     document.getElementById("que9").innerHTML="  c) a selector and a declaration block";
+      
+  }
+
+  function changeContent10() {
+     document.getElementById("que10").innerHTML=" b) css selector";
+      
+  }
+</script>
+
+
+
+<!-- 
+  first wrong  css used xxxxxxxxxxxxxxxxxxx
+   .ans1{
+      z-index: 1;
+      width: 170px;
+      text-align: center;
+      position: absolute;
+      visibility: hidden;
+      background-color: white;
+      color: black;
+      /* display: none; */
+    }
+
+    .que1 :hover .ans1{
+      visibility: visible;
+      /* display: block; */
+      position: relative;
+
+    }
+    
+    body{
+      background-color: magenta;
+      font-size: 25px;
+    }
+    
+    
+    #que1{
+      position: absolute;
+      margin-top: 15px;
+      padding: 5px;
+      border: 2px dotted red;
+      background-color: steelblue;
+      border-radius: 5px; 
+      /* display: none;                                 */
+    }
+
+
+ -->
+  
+</body>
+</html>
